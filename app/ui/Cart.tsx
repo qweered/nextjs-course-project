@@ -8,7 +8,6 @@ import Link from 'next/link'
 export const Cart = () => {
 	const [itemsCount] = useAtom((ctx) => {
 		const order = ctx.spy(orderAtom)
-		console.log(order)
 		return order.reduce((acc, item) => acc + item.amount, 0)
 	})
 

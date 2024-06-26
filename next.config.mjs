@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	experimental: {
-		// ppr: 'incremental',
-		// reactCompiler: true,
+		ppr: 'incremental',
+		reactCompiler: true,
 	},
 }
 
