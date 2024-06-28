@@ -23,7 +23,6 @@
   "devDependencies": {
     "@epic-web/config": "^1.11.2",
     "@reatom/eslint-plugin": "^3.4.3",
-    "@testing-library/react": "^16.0.0",
     "@types/bun": "latest",
     "@types/node": "^20",
     "@types/react": "^18",
