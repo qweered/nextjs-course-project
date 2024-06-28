@@ -25,20 +25,18 @@ export const MealCard = ({
 	}
 
 	return (
-		<div className="border-border-color flex w-11/12 justify-start space-x-4 rounded-md border bg-white p-6 dark:bg-gray-500">
+		<div className="border-border-color flex w-11/12 justify-start space-x-4 rounded-md border bg-white p-6">
 			<img src={imageSrc} alt={title} className="size-32" />
 			<div className="flex w-2/3 flex-col items-start gap-2.5">
 				<div className="flex w-full justify-between">
-					<h2 className="text-title-accent text-base font-normal leading-5 tracking-tight">
+					<h2 className="text-base font-normal leading-5 tracking-tight text-black">
 						{title}
 					</h2>
 					<p className="text-sm font-normal leading-5 text-green">
 						${price} USD
 					</p>
 				</div>
-				<p className="line-clamp-3 text-base text-gray-description dark:text-white">
-					{text}
-				</p>
+				<p className="line-clamp-3 text-base text-gray-description">{text}</p>
 				<div className="flex items-center gap-2">
 					<input
 						type="number"
